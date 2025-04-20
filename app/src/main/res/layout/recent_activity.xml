@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Activity Item (Amount and Date) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Amount (e.g., $0.00) We will populate this later with real user data-->
+        <TextView
+            android:id="@+id/recentEntryAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/_0_00"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Category Text -->
+        <TextView
+            android:id="@+id/recentEntryCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="14sp"
+            android:textColor="@color/medium_gray"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"/>
+
+        <!-- Date of activity We will populate this later with real user data-->
+        <TextView
+            android:id="@+id/recentEntryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+
+    <!-- Divider line directly below the activity item -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+</LinearLayout>

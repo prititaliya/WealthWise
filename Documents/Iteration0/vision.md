@@ -1,0 +1,11 @@
+# Wealth Wise App Vision Statement
+
+Wealth Wise will help users track their income, expenses, and savings while also providing tips on how to improve their spending habits. The app helps develop financial literacy, supports mindful spending, and offers an effective tracking system. By making financial tracking straightforward, engaging, and fun, Wealth Wise empowers users to make smarter financial decisions, regardless of their income level.
+
+Wealth Wise is for individuals looking to manage their finances, such as students, couples saving for a house, retirees on a fixed income, or professionals with multiple subscriptions. The app helps users track their spending, set savings goals, and categorize their financial activities. It provides a financial summary, breaks down spending into categories like needs, wants, and savings, and offers tips to improve financial habits.
+
+Wealth Wise is simple to join, and anyone can sign up and make a profile. You can review your past spending and saving patterns and get a complete overview of your finances. And your personal information remains private, for your eyes only.
+
+The Wealth Wise app is developed by the same team that uses it, ensuring it is tailored to meet real-world needs. It offers free, customizable tools designed to be more intuitive and user-friendly compared to other budgeting apps on the market. Wealth Wise will be a valuable tool since it helps people to easily manage their money and make better decisions regarding their financial activities. Many people find it hard to track spending, save money, or make good financial choices these days with the current economic pressures. The app helps to solve this problem by categorizing spending and showing people exactly where their money is going. It will be helpful to set savings goals and users can accurately stay on track to reach them, through this fun and customizable app. Wealth Wise will be simple to use, open to everyone, useful at any income level, and helpful in guiding users to a better financial future.
+
+The project will be considered successful if, based on user surveys, the majority of active users feel the app helps them move toward their savings goals. Additionally, success will be measured by the number of users who report positive changes in their financial habits.

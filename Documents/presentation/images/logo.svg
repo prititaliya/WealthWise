@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#2997ff" opacity="0.1"/>
+    
+    <!-- Outer Ring -->
+    <circle cx="100" cy="100" r="85" fill="none" stroke="#2997ff" stroke-width="4"/>
+    <circle cx="100" cy="100" r="85" fill="none" stroke="#2997ff" stroke-width="4" stroke-dasharray="10,5" opacity="0.5"/>
+    
+    <!-- Code Symbol -->
+    <g transform="translate(100,100)">
+        <!-- < > symbols -->
+        <path d="M-30,-20 L-40,0 L-30,20" stroke="#2997ff" stroke-width="4" fill="none"/>
+        <path d="M30,-20 L40,0 L30,20" stroke="#2997ff" stroke-width="4" fill="none"/>
+        
+        <!-- Code Lines -->
+        <line x1="-20" y1="-15" x2="20" y2="-15" stroke="#2997ff" stroke-width="4"/>
+        <line x1="-20" y1="0" x2="20" y2="0" stroke="#2997ff" stroke-width="4"/>
+        <line x1="-20" y1="15" x2="20" y2="15" stroke="#2997ff" stroke-width="4"/>
+    </g>
+    
+    <!-- Financial Elements -->
+    <g transform="translate(100,100)">
+        <!-- Dollar Sign -->
+        <path d="M-5,-25 L-5,25" stroke="#2997ff" stroke-width="4" fill="none"/>
+        <path d="M-15,-15 L5,-15" stroke="#2997ff" stroke-width="4" fill="none"/>
+        <path d="M-15,15 L5,15" stroke="#2997ff" stroke-width="4" fill="none"/>
+        
+        <!-- Graph Line -->
+        <path d="M-30,10 Q-15,-10 0,10 T30,10" stroke="#2997ff" stroke-width="4" fill="none" opacity="0.7"/>
+    </g>
+    
+    <!-- Decorative Elements -->
+    <g transform="translate(100,100)">
+        <!-- Dots -->
+        <circle cx="-40" cy="-40" r="3" fill="#2997ff"/>
+        <circle cx="40" cy="-40" r="3" fill="#2997ff"/>
+        <circle cx="-40" cy="40" r="3" fill="#2997ff"/>
+        <circle cx="40" cy="40" r="3" fill="#2997ff"/>
+    </g>
+</svg> 

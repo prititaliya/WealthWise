@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentation.profile.ProfileFragment">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/user_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Profile Dashboard Heading -->
+            <TextView
+                android:id="@+id/profile_dashboard_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_dashboard"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+
+            <!-- Profile Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:layout_marginTop="40dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:contentDescription="@string/profile_dashboard"
+                    android:id="@+id/profile_image"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ic_profile"
+                    android:layout_marginBottom="8dp"
+                    app:tint="@color/ios_blue"
+                    />
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/user_full_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp"/>
+
+                <!-- Edit Profile -->
+                <TextView
+                    android:id="@+id/edit_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_profile_text"
+                    android:textColor="@color/ios_blue"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <!-- Separator line -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/ios_medium_grey"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="32dp"
+                android:alpha="0.5"/>
+
+            <!-- Email (new addition) -->
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#757575"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Logout Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_logout"
+                style="@style/IOSPrimaryButtonStyle"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/log_out" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

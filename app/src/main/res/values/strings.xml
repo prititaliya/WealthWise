@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Finance Tracker</string>
+
+    <!-- Navigation & Labels -->
+    <string name="home">Home</string>
+    <string name="tracking">Tracking</string>
+    <string name="Analytics">Analytics</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="goBack">Go Back</string>
+
+    <!-- Authentication Fields -->
+    <string name="email">Email</string>
+    <string name="password_hint"> Password</string>
+    <string name="username_hint">Enter Your Username</string>
+    <string name="confirmpassword_hint">Confirm Password</string>
+    <string name="userName">userName\n</string>
+
+    <!-- Authentication Buttons -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgotPassword">Forgot Password?\n</string>
+
+    <!-- Authentication Messages -->
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="already_have_account">Already have an account\n\n</string>
+
+    <!-- Fragment Messages -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Button IDs-->
+    <string name="btn_logout">Log Out</string>
+
+    <!-- Header Messages -->
+    <string name="userNameHeaderMessage">Hello, %s</string>
+    <string name="entryHeaderMessage">%s</string>
+
+    <!--    profile name on profile paghe-->
+    <string name="profile_name">%s %s</string>
+    <string name="profile_email">%s</string>
+    <string name="addButton">+ Add</string>
+    <string name="backButtonText">Back</string>
+    <string name="incomeAmount">Amount</string>
+    <string name="incomeDescription">Description</string>
+    <string name="category">Category</string>
+    <string name="date">Select Date</string>
+    <string name="addIncome">Add Income</string>
+
+    <string name="tracking_dashboard">Tracking Dashboard</string>
+    <string name="income_tracking">Income Tracking</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="see_more">See More</string>
+    <string name="historyMonth">Month\t\t</string>
+
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="select_date">Select date</string>
+
+    <string name="amount_display">$ %s</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="deleteIncome">Delete Income</string>
+    <string name="deleteEntry">Delete Entry</string>
+    <string name="expense_tracking">Expense Tracking</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="expense_tracking_chart">Expense Tracking Chart</string>
+    <string name="monthly_expenses">Monthly Expenses</string>
+    <string name="change_password">Change Password</string>
+    <string name="add_a_new_password_to_change">Add A New password To Change</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="password">Password</string>
+    <string name="go_back">Go Back</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="placeholder_for_analytics">Placeholder for Analytics</string>
+    <string name="analytics">Analytics</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="we_re_working_on_exciting_features_to_help_you_understand_your_finances_better">We\'re working on exciting features to help you understand your finances better.</string>
+    <string name="back">Back</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="wealth_wise">Wealth Wise</string>
+    <string name="_0_00">$ 0.00</string>
+    <string name="full_time_job">Full Time Job</string>
+    <string name="_500_00">$500.00</string>
+    <string name="savings_tracking">Savings Tracking</string>
+    <string name="net_monthly_savings">Net Monthly Savings</string>
+    <string name="profile_dashboard">Profile Dashboard</string>
+    <string name="log_out">Log Out</string>
+    <string name="home_dashboard">Home Dashboard</string>
+    <string name="today_s_date">Today\'s Date</string>
+    <string name="net_savings_this_month">Net savings this month:</string>
+    <string name="_0_00_cad">$0.00 CAD</string>
+    <string name="summary">Summary</string>
+    <string name="monthly_overview">Monthly Overview</string>
+    <string name="view_your_monthly_financial_activity">View your monthly financial activity</string>
+    <string name="monthly_stats">Monthly Stats</string>
+    <string name="income">Income</string>
+    <string name="monthly">Monthly</string>
+    <string name="expenses">Expenses</string>
+    <string name="net_savings">Net Savings</string>
+    <string name="back_to_profile">Back to Profile</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="select_starting_date">Starting Date</string>
+    <string name="select_ending_date">Ending Date</string>
+    <string name="current_month">Current Month</string>
+    <string name="incomeChartTitle">Income Summary</string>
+    <string name="expenseChartTitle">Expense Summary</string>
+    <string name="summaryTitle">Summary Analytics</string>
+    <string name="incomeTitle">Income</string>
+    <string name="Expense">Expense</string>
+    <string name="Savings">Savings</string>
+    <string name="TimeLine">TimeLine</string>
+    <string name="month1">Anually</string>
+    <string name="all_time">all time</string>
+    <string name="week">Week</string>
+    <string name="Week">Week</string>
+    <string name="year">year</string>
+    <string name="month">month</string>
+    <string name="analytics_summary">Analytics Summary</string>
+    <string name="income_analytics">Income Analytics</string>
+    <string name="expense_analytics">Expense Analytics</string>
+    <string name="analytics_dashboard">Analytics Dashboard</string>
+    <string name="totals">Totals</string>
+    <string name="timeline">Timeline</string>
+    <string name="weekly">Weekly</string>
+    <string name="annually">Annually</string>
+    <string name="pie_chart">PieChart</string>
+    <string name="net_monthly_savings1">Net Monthly Savings</string>
+    <string name="income_expenses">Income - Expenses</string>
+</resources>

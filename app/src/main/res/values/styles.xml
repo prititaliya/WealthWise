@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iOS Style Buttons -->
+    <style name="IOSPrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minWidth">250dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/ios_blue</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="IOSSecondaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minWidth">250dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ios_blue</item>
+        <item name="backgroundTint">@color/ios_gray</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- iOS Style Input Fields -->
+    <style name="IOSInputFieldStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#8E8E93</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@color/ios_gray</item>
+    </style>
+
+    <!-- iOS Style Dividers -->
+    <style name="IOSDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/ios_medium_grey</item>
+    </style>
+
+    <style name="IOSDivider.WithMargins">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <!-- Profile Screen Styles -->
+    <style name="ProfileMenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SegmentedButtonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/ios_blue</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
+    <style name="SegmentedButtonThemeOverlay">
+        <item name="colorPrimary">@color/ios_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/ios_blue</item>
+    </style>
+</resources>
